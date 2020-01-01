@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './component/home/home.component';
 import { AddVacancyComponent } from './component/add-vacancy/add-vacancy.component';
 import { ViewVacancyComponent } from './component/view-vacancy/view-vacancy.component';
+import { DeleteVacancyComponent } from './component/delete-vacancy/delete-vacancy.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AddVacancyComponent,
-    ViewVacancyComponent
+    ViewVacancyComponent,
+    DeleteVacancyComponent
   ],
   imports: [
     BrowserModule,
