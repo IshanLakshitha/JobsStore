@@ -1,15 +1,21 @@
 <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#" [routerLink]="['/homepage']">Home</a>
+        <a class="nav-link" [routerLink]="['/homepage']">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" [routerLink]="['/add_vacancy']">Add Vacancies</a>
+        <a class="nav-link" [routerLink]="['/add_vacancy']">Add Vacancies</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" [routerLink]="['/view_vacancy']">View Vacancies</a>
+        <a class="nav-link" [routerLink]="['/view_vacancy']">View Vacancies</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" [routerLink]="['/delete_vacancy']">Delete Vacancies</a>
+        <a class="nav-link" [routerLink]="['/delete_vacancy']">Delete Vacancies</a>
       </li>
     </ul></nav>
+    <div class="sidenav">
+      <a [routerLink]="['/homepage']">Home</a>
+      <a [routerLink]="['/add_vacancy']">Add Vacancies</a>
+      <a [routerLink]="['/view_vacancy']">View Vacancies</a>
+      <a [routerLink]="['/delete_vacancy']">Delete Vacancies</a>
+    </div>

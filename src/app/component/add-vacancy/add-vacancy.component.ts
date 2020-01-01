@@ -16,11 +16,7 @@ export class AddVacancyComponent implements OnInit {
   }
 
   postVacancy(){
-   if(this.vacancyObject.name == null || this.vacancyObject.email == null || this.vacancyObject.description == null){
-      console.log("Please fill all the Fieleds!");
-   } else{
-     
-   }
+    
   }
 
 }
